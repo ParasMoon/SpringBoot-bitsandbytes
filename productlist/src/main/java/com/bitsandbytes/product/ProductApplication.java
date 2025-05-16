@@ -8,9 +8,8 @@ import org.springframework.context.ApplicationContext;
 public class ProductApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(ProductApplication.class, args);
-        MyApp myComponent = context.getBean(MyApp.class);
-		myComponent.run();
+
+		SpringApplication.run(ProductApplication.class, args);
 
 	}
 }
